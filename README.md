@@ -37,4 +37,15 @@ This project explores Amazon's 2023 sales data to extract business insights usin
 
 This project demonstrates how simple exploratory analysis with Pandas and NumPy can yield impactful business insights. It highlights product-market fit, revenue drivers, and customer behavior patterns on Amazon's marketplace.
 
+## 📁 Dataset Access
+
+This project uses a large dataset of Amazon products for 2023. You can programmatically download it using [`kagglehub`](https://pypi.org/project/kagglehub/):
+
+```python
+import kagglehub
+
+# Download latest version of the dataset
+path = kagglehub.dataset_download("asaniczka/amazon-products-dataset-2023-1-4m-products")
+
+print("Path to dataset files:", path)
   
